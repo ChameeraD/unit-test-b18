@@ -4,11 +4,11 @@ test("adds 1 and 2 and return 3", () => {
   expect(calculator.add(1, 2)).toBe(3);
 });
 
-test("subtracts 4 and 2 and return 2", () => {
+test("subtracts 4 from 2 and return 2", () => {
   expect(calculator.subtract(4, 2)).toBe(2);
 });
 
-test("multiply 5 and 3 and return 15", () => {
+test("multiplies by and 3 and return 15", () => {
   expect(calculator.multiply(5, 3)).toBe(15);
 });
 

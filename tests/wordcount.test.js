@@ -1,13 +1,9 @@
-var wordCount = require('../wordCount');
+var wordCount = require("../wordCount");
 
-test('returns word count 3', ()=>{
-    expect(wordCount.uniqueWordCount("Unit Test Example")).toBe(3);
+test("returns 0 for empty string", () => {
+  expect(wordCount.uniqueWordCount("")).toBe(0);
 });
 
-test('returns word count 3', ()=>{
-    expect(wordCount.uniqueWordCount()).toBe(0);
-});
-
-test('returns word count 3', ()=>{
-    expect(wordCount.uniqueWordCount('')).toBe(0);
+test('returns 2 for "Batch 18"', () => {
+  expect(wordCount.uniqueWordCount("")).toBe(0);
 });
